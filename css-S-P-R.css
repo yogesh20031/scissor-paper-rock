@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+.main,
+.total-score {
+  margin: 20px;
+  display: flex;
+  width: 400px;
+  gap: 10px;
+}
+.main{
+    width: 700px;
+}
+.reset,
+.score-board {
+    font-size: 1.3rem;
+  margin: 10px 20px;
+}
+.choice {
+  height: 70px;
+  width: 70px;
+}
+.scissor,
+.paper,
+.rock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background-color: #000000;
+}
